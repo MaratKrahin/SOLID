@@ -14,3 +14,5 @@ public class SortByName implements Sort {
         Collections.sort(list, nameComparator);
     }
 }
+// I - принцип сегрегации (разделения) интерфейса (Interface Segregation Principle)
+// класс реализует отдельный интерфейс (похожий по функциональности)

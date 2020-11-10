@@ -18,14 +18,14 @@ public class StartApp {
         List<Product> dolls = new ArrayList<>();
         Map<String, List<Product>> products = new HashMap<>();
         List<Product> cars = new ArrayList<>();
-        cars.add(new ToyCar("Ferrari", 2200, 9));
-        cars.add(new ToyCar("Porsche", 1500, 8));
-        cars.add(new ToyCar("BMW", 1100, 7));
-        cars.add(new ToyCar("Lada", 600, 3));
-        dolls.add(new ToyDoll("Giuseppe", 2500, 6));
-        dolls.add(new ToyDoll("Luisa", 2100, 4));
-        dolls.add(new ToyDoll("Alfredo", 4300, 7));
-        dolls.add(new ToyDoll("Magdalena", 3650, 20));
+        cars.add(new ToyCar("Ferrari", 2200, 9, 10));
+        cars.add(new ToyCar("Porsche", 1500, 8, 12));
+        cars.add(new ToyCar("BMW", 1100, 7,10));
+        cars.add(new ToyCar("Lada", 600, 3, 11));
+        dolls.add(new ToyDoll("Giuseppe", 2500, 6, true));
+        dolls.add(new ToyDoll("Luisa", 2100, 4, false));
+        dolls.add(new ToyDoll("Alfredo", 4300, 7, true));
+        dolls.add(new ToyDoll("Magdalena", 3650, 20, false));
 
         products.put("Cars", cars);
         products.put("Dolls", dolls);

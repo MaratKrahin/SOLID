@@ -14,3 +14,6 @@ public class SortByRating implements Sort {
         Collections.sort(list, ratingComparator);
     }
 }
+
+// I - принцип сегрегации (разделения) интерфейса (Interface Segregation Principle)
+// класс реализует отдельный интерфейс (похожий по функциональности)

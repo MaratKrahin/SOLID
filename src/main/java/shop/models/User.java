@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+// S принцип Single Responsibility Principle
+// Класс выпоняет только те функции, для которого он предназначен:
+// хранение, добавление элементов, просмотр элементов
 public class User {
     String name;
     int id;

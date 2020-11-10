@@ -14,3 +14,6 @@ public class SortByPrice implements Sort {
         Collections.sort(list, priceComparator);
     }
 }
+
+// I - принцип сегрегации (разделения) интерфейса (Interface Segregation Principle)
+// класс реализует отдельный интерфейс (похожий по функциональности)
